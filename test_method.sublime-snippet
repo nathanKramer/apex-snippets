@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[@isTest
-static void ${1:methodName}()
-{
+static void ${1:methodName}() {
     ${0:// the code}
 }]]></content>
     <tabTrigger>test</tabTrigger>
