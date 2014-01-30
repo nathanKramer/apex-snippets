@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[@isTest
+static void ${1:methodName}()
+{
+    ${0:// the code}
+}]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Test Method</description>
+</snippet>

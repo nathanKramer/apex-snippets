@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[ApexPages.currentPage().getParameters().get('${1:id}')]]></content>
+    <tabTrigger>Apg</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Get Parameter</description>
+</snippet>

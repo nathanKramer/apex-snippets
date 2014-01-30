@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+try {
+    $1
+} catch (Exception e) {
+    ApexPages.addMessages($2e);
+}]]></content>
+    <tabTrigger>trymsg</tabTrigger>
+    <scope>source.apex</scope>
+    <description>try catch with addMsg</description>
+</snippet>

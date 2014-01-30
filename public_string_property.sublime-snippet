@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[public String ${1:id} { get; set; }]]></content>
+    <tabTrigger>pubs</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Public String Property</description>
+</snippet>

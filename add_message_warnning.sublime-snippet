@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.WARNING,
+                                    '$1'));]]></content>
+    <tabTrigger>Amw</tabTrigger>
+    <scope>source.apex</scope>
+    <description>ApexPages Add WARNING</description>
+</snippet>

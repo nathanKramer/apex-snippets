@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.INFO,
+                                    '$1'));]]></content>
+    <tabTrigger>Ami</tabTrigger>
+    <scope>source.apex</scope>
+    <description>ApexPages Add INFO</description>
+</snippet>

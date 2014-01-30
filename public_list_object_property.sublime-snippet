@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[public List<${1:object}> ${0:variable} { get; set; }]]></content>
+    <tabTrigger>pubos</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Public List Object Property</description>
+</snippet>
