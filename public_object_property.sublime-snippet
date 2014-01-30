@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[public ${1:object} ${0:variable} { get; set; }]]></content>
+    <content><![CDATA[public ${1:object} ${2:variable} { get; set; }]]></content>
     <tabTrigger>pubo</tabTrigger>
     <scope>source.apex</scope>
     <description>Public Object Property</description>
