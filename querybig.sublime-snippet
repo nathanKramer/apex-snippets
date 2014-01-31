@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+List<${1:sObject}> ${2:query} = [
+	SELECT Id 
+	FROM $1 
+	WHERE $3 
+];
+]]></content>
+    <tabTrigger>querybig</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Large SOQL query</description>
+</snippet>
