@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:methodName}
+ * @author ${2:$TM_FULLNAME}
+ * @param ${3:String paramName} : ${4:param explanation}
+ */
+${5:public} void $1($3) {
+	$6
+}
+]]></content>
+    <tabTrigger>vmethod</tabTrigger>
+    <scope>source.apex</scope>
+    <description>build a void method</description>
+</snippet>
