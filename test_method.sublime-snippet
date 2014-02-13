@@ -1,7 +1,11 @@
 <snippet>
-    <content><![CDATA[@isTest
-static void ${1:methodName}() {
-    ${0:// the code}
+    <content><![CDATA[
+/**
+ * Scenario: ${1:TheScenario}
+ * Expected Outcome: ${2:ExpectedOutcome}
+ */
+@isTest static void ${3:methodName}() {
+    ${4:// the code}
 }]]></content>
     <tabTrigger>test</tabTrigger>
     <scope>source.apex</scope>
