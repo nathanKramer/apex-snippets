@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.FATAL,
-                                    '$1'));]]></content>
+    <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.FATAL, $1));]]></content>
     <tabTrigger>Amf</tabTrigger>
     <scope>source.apex</scope>
     <description>ApexPages Add FATAL</description>
