@@ -1,6 +1,5 @@
 <snippet>
-    <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR,
-                                    '$1'));]]></content>
+    <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.ERROR, $1));]]></content>
     <tabTrigger>Ame</tabTrigger>
     <scope>source.apex</scope>
     <description>ApexPages Add ERROR</description>
