@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[new List<${1:object}> ${3:{ $2 \}}$4 ]]></content>
+    <tabTrigger>newl</tabTrigger>
+    <scope>source.apex</scope>
+    <description>new list one line initialisation</description>
+</snippet>
