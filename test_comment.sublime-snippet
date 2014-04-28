@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Scenario: ${1:TheScenario}
+ * Expected Outcome: ${2:ExpectedOutcome}
+ */
+]]></content>
+    <tabTrigger>/*t</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Test Method</description>
+</snippet>
