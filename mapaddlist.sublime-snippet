@@ -1,9 +1,8 @@
 <snippet>
     <content><![CDATA[
-if(!${1:theMap}.containsKey(${2:theKey})) {
+if (!${1:theMap}.containsKey(${2:theKey})) {
     ${1:theMap}.put(${2:theKey}, new List<${3:String}> { ${3:theValue} });
-}
-else {
+} else {
     ${1:theMap}.get(${2:theKey}).add(${3:theValue});
 }
 ]]></content>
