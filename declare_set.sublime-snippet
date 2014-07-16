@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[Set<${1:SObject}> ${2:objects} = new Set<$1>();]]></content>
+    <tabTrigger>setDeclare</tabTrigger>
+    <scope>source.apex</scope>
+    <description>new set declaration</description>
+</snippet>

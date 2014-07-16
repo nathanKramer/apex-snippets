@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[new Set<${1:object}> ${3:{ $2 \}}$4 ]]></content>
-    <tabTrigger>news</tabTrigger>
+    <tabTrigger>setInit</tabTrigger>
     <scope>source.apex</scope>
     <description>new set one line initialisation</description>
 </snippet>
