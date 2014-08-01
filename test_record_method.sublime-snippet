@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * Retrieve test ${1:Contact} record
+ * @param Boolean shouldInsert : if true, record will be inserted, otherwise you must insert it yourself
+ */
+public static $1 getFund(Boolean shouldInsert) {
+    $1 ${2:record} = new $1();
+    if (shouldInsert) insert $2;
+
+    return $2;
+}
+]]></content>
+    <tabTrigger>trm</tabTrigger>
+    <scope>source.apex</scope>
+    <description>Create a test record method (for a TestObjectFactory)</description>
+</snippet>
