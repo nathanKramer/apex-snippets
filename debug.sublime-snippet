@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[System.debug('@debug: ' + $1);]]></content>
-    <tabTrigger>debug</tabTrigger>
-    <scope>source.apex</scope>
-    <description>Apex Debug</description>
+  <content><![CDATA[System.debug('[${TM_FILENAME}]:  ${1:}'$2);]]></content>
+  <tabTrigger>debug</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Apex Debug</description>
 </snippet>

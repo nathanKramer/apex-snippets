@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-else if($1) {
-	${2://code}
-}]]></content>
-    <tabTrigger>elif</tabTrigger>
-    <scope>source.apex</scope>
-    <description>else if</description>
-</snippet>

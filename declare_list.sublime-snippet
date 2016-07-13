@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[List<${1:SObject}> ${2:objects} = new List<$1>();]]></content>
-    <tabTrigger>newL</tabTrigger>
-    <scope>source.apex</scope>
-    <description>Construct a new list</description>
+  <content><![CDATA[List<${1:SObject}> ${2:objects} = new List<$1>();]]></content>
+  <tabTrigger>newL</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Construct a new list</description>
 </snippet>

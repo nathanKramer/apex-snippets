@@ -1,12 +1,13 @@
 <snippet>
-    <content><![CDATA[
+  <content><![CDATA[
 if (!${1:theMap}.containsKey(${2:theKey})) {
-    ${1:theMap}.put(${2:theKey}, ${3:theValue});
+	${1:theMap}.put(${2:theKey}, ${3:theValue});
 } else {
-    ${1:theMap}.put(${2:theKey}, ${1:theMap}.get(${2:theKey}) + ${3:theValue});
+	${1:theMap}.put(${2:theKey}, ${1:theMap}.get(${2:theKey}) + ${3:theValue});
 }
-]]></content>
-    <tabTrigger>mapadd</tabTrigger>
-    <scope>source.apex</scope>
-    <description>Add value to a map</description>
+]]>
+  </content>
+  <tabTrigger>mapadd</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Add value to a map</description>
 </snippet>

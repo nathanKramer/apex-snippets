@@ -1,9 +1,10 @@
 <snippet>
-    <content><![CDATA[
+  <content><![CDATA[
 else {
 	$1
-}]]></content>
-    <tabTrigger>el</tabTrigger>
-    <scope>source.apex</scope>
-    <description>else</description>
+}]]>
+  </content>
+  <tabTrigger>el</tabTrigger>
+  <scope>source.apex</scope>
+  <description>else</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[Set<${1:SObject}> ${2:objects} = new Set<$1>();]]></content>
-    <tabTrigger>newS</tabTrigger>
-    <scope>source.apex</scope>
-    <description>Construct a new set</description>
+  <content><![CDATA[Set<${1:SObject}> ${2:objects} = new Set<$1>();]]></content>
+  <tabTrigger>newS</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Construct a new set</description>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+Savepoint rollbackPoint = Database.setSavepoint();
+try {
+	${1:insert} ${2:rows};
+}
+catch (${3:DmlException} e) {
+	Database.rollback(rollbackPoint);$4
+}
+]]></content>
+  <tabTrigger>tcd</tabTrigger>
+  <scope>source.apex</scope>
+</snippet>

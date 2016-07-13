@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[System.assert(${1:result}, ${2:explanation message});]]></content>
-    <tabTrigger>assert</tabTrigger>
-    <scope>source.apex</scope>
-    <description>Apex Assert</description>
+  <content><![CDATA[System.assert(${1:expression}, ${2:explanation message});]]></content>
+  <tabTrigger>assert</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Apex Assert</description>
 </snippet>

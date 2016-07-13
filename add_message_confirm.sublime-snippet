@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM, $1));]]></content>
-    <tabTrigger>Amc</tabTrigger>
-    <scope>source.apex</scope>
-    <description>ApexPages Add CONFIRM</description>
+  <content><![CDATA[ApexPages.addMessage(new ApexPages.Message(ApexPages.Severity.CONFIRM, $1));]]></content>
+  <tabTrigger>Amc</tabTrigger>
+  <scope>source.apex</scope>
+  <description>ApexPages Add CONFIRM</description>
 </snippet>

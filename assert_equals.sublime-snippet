@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[System.assertEquals(${1:expect}, ${2:actual}, ${3:explanation});]]></content>
-    <tabTrigger>asserte</tabTrigger>
-    <scope>source.apex</scope>
-    <description>Apex Assert Equals</description>
+  <content><![CDATA[System.assertEquals(${1:expect}, ${2:actual}, ${3:explanation});]]></content>
+  <tabTrigger>asserte</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Apex Assert Equals</description>
 </snippet>

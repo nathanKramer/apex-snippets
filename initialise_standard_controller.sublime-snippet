@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ApexPages.StandardController ${2:sc} = new ApexPages.StandardController(${1:sObjectHere});]]></content>
+  <tabTrigger>Aps</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Construct a StandardController</description>
+</snippet>

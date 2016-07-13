@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[ApexPages.StandardSetController ${2:sc} = new ApexPages.StandardSetController( $1 );]]></content>
+  <tabTrigger>Apss</tabTrigger>
+  <scope>source.apex</scope>
+  <description>Construct a StandardSetController</description>
+</snippet>
