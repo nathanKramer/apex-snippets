@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+Database.DMLOptions options = new Database.DMLOptions();
+options.allowFieldTruncation = true;
+${1:rows}.setOptions(options);
+]]></content>
+  <tabTrigger>dmlO</tabTrigger>
+  <scope>source.apex</scope>
+</snippet>

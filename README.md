@@ -2,6 +2,11 @@
 
 This is a comprehensive collection of Sublime Text snippets for developing Apex.
 
+[<img src="https://cdn-business.discourse.org/uploads/github_atom/490/d8548f4ce56f1599.png" width="48">](https://github.com/nathanKramer/atom-apex-snippets) [<img src="http://c758482.r82.cf2.rackcdn.com/sublime_text_icon_2181.png" width="48">](https://github.com/nathanKramer/apex-snippets)
+
+This is the _Sublime Text 3_ version
+====================================
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
