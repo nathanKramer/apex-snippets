@@ -47,7 +47,7 @@ When documenting a test method, use [/*t](/test_method.sublime-snippet)
 
 You can create apex methods with [method](/method.sublime-snippet)
 
-For void methods, use the very similar [methodv](/method.sublime-snippet)
+For void methods, use the very similar [vmethod](/method.sublime-snippet)
 
 For test methods, use [test](/test_method.sublime-snippet)
 
