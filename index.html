@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Apex-snippets by nathanKramer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Apex-snippets</h1>
+      <h2 class="project-tagline">A bundle of Sublime Text 3 snippets for apex</h2>
+      <a href="https://github.com/nathanKramer/apex-snippets" class="btn">View on GitHub</a>
+      <a href="https://github.com/nathanKramer/apex-snippets/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/nathanKramer/apex-snippets/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="apex-snippets" class="anchor" href="#apex-snippets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Apex Snippets</h1>
+
+<p>This is a comprehensive collection of Sublime Text snippets for developing Apex.</p>
+
+<p><a href="https://github.com/nathanKramer/atom-apex-snippets"><img src="https://cdn-business.discourse.org/uploads/github_atom/490/d8548f4ce56f1599.png" width="48"></a> <a href="https://github.com/nathanKramer/apex-snippets"><img src="http://c758482.r82.cf2.rackcdn.com/sublime_text_icon_2181.png" width="48"></a></p>
+
+<h1>
+<a id="this-is-the-sublime-text-3-version" class="anchor" href="#this-is-the-sublime-text-3-version" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This is the <em>Sublime Text 3</em> version</h1>
+
+
+
+
+
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li>
+<a href="#getting-started">Getting Started</a>
+
+<ul>
+<li><a href="#documenting-code">Documenting Code</a></li>
+<li><a href="#methods">Methods</a></li>
+<li><a href="#assertions-and-debug">Assertions and Debug</a></li>
+<li><a href="#visualforce">Visualforce</a></li>
+<li><a href="#queries-and-dml">Queries and DML</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Clone this repository in your sublime packages directory.</p>
+
+<p>To navigate there:</p>
+
+<p><code>Sublime Text</code> -&gt; <code>Preferences</code> -&gt; <code>Browser Packages</code></p>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<p>In order to make best use of these snippets, I would recommend reading them.</p>
+
+<p>Here are a few good ones to start with.</p>
+
+<h3>
+<a id="documenting-code" class="anchor" href="#documenting-code" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documenting Code</h3>
+
+<p>When documenting a file, use <a href="/filecomment.sublime-snippet">/*f</a></p>
+
+<p>When documenting a method, use <a href="/comment.sublime-snippet">/*</a></p>
+
+<p>When documenting a test method, use <a href="/test_method.sublime-snippet">/*t</a></p>
+
+<h3>
+<a id="methods" class="anchor" href="#methods" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Methods</h3>
+
+<p>You can create apex methods with <a href="/method.sublime-snippet">method</a></p>
+
+<p>For void methods, use the very similar <a href="/method.sublime-snippet">vmethod</a></p>
+
+<p>For test methods, use <a href="/test_method.sublime-snippet">test</a></p>
+
+<p>For test factory methods, use <a href="/test_record_method.sublime-snippet">trm</a></p>
+
+<h3>
+<a id="assertions-and-debug" class="anchor" href="#assertions-and-debug" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Assertions and Debug</h3>
+
+<p>Use <a href="/assert.sublime-snippet">assert</a> for plain assertions</p>
+
+<p>Use <a href="/assert_equals.sublime-snippet">asserte</a> for equality assertions</p>
+
+<p>Use <a href="/debug.sublime-snippet">debug</a> for debugging</p>
+
+<h3>
+<a id="visualforce" class="anchor" href="#visualforce" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Visualforce</h3>
+
+<p>When adding Page messages in your controller (Error, Info, Fatal, Warning):</p>
+
+<ul>
+<li><a href="/add_message_error.sublime-snippet">Ame</a></li>
+<li><a href="/add_message_info.sublime-snippet">Ami</a></li>
+<li><a href="/add_message_fatal.sublime-snippet">Amf</a></li>
+<li><a href="/add_message_warning.sublime-snippet">Amw</a></li>
+</ul>
+
+<p>To construct a standard controller, use <a href="/initialise_standard_controller.sublime-snippet">Aps</a></p>
+
+<p>To construct a standard set controller, use <a href="/initialise_standard_set_controller.sublime-snippet">Apss</a></p>
+
+<h3>
+<a id="queries-and-dml" class="anchor" href="#queries-and-dml" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Queries and DML</h3>
+
+<p>For a quick inline query use <a href="/soql_query.sublime-snippet">query</a></p>
+
+<p>For a larger query use <a href="/soql_query_big.sublime-snippet">querybig</a></p>
+
+<p>For a try catched insert with rollback, try <a href="/safe_dml.sublime-snippet">tcd</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/nathanKramer/apex-snippets">Apex-snippets</a> is maintained by <a href="https://github.com/nathanKramer">nathanKramer</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
